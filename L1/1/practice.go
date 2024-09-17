@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Создаем структуру
 type Human struct {
 	name string
 	age  int
