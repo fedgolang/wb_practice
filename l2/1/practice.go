@@ -26,6 +26,6 @@ func main() {
 		},
 		effect: "umer",
 	}
-	jora.changeName("jopa")
+	jora.changeName("jija")
 	fmt.Printf("ya teper: %s, i ya: %s", jora.name, jora.effect)
 }
