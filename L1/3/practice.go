@@ -22,7 +22,6 @@ func main() {
 	for _, num := range numbers {
 		wg.Add(1)
 		go squareWorker(num, &wg, resultChan)
-		// Не стал пользоваться мьютексами, потому что нам не важно это для вычисления суммы
 	}
 
 	go func() {
